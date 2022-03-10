@@ -33,7 +33,7 @@
 .column_left {
     width: 25%;
     flex: none;
-    min-width: 260px;
+    min-width: 285px;
 }
 
 .column_left_avatar {

@@ -36,13 +36,35 @@ if (document.getElementsByClassName("demo").length > 0) {
     setTimeout(typeItOut, 1800);
 }
 
+var icon = document.getElementsByClassName("hero_section_btn_off")[0];
+var loader = document.getElementsByClassName("hero_section")[0];
+
 window.addEventListener("load", function () {
-    var loader = document.getElementsByClassName("hero_section")[0];
     function typeItOut() {
         if (document.getElementsByClassName("hero_section").length > 0) {
             loader.classList.add("hero_section_load");
+            icon.style.display = "flex";
         }
     }
-
     setTimeout(typeItOut, 3800);
+
+    function showNav() {
+        document.getElementsByClassName("hero_cmd")[0].remove();
+        loader.classList.remove("hero_section_image");
+        loader.classList.remove("hero_section_load");
+        loader.classList.add("hero_section_resume");
+        var div = document.createElement("div");
+        div.classList.add("hero_section_intro");
+        var tag = document.createElement("p");
+        var text = document.createTextNode("DINH THANH NGHIA");
+        tag.appendChild(text);
+        var tag1 = document.createElement("span");
+        var text1 = document.createTextNode("Front-end Developer");
+        tag1.appendChild(text1);
+        div.appendChild(tag);
+        div.appendChild(tag1);
+        loader.appendChild(div);
+        icon.remove();
+    }
+    icon.addEventListener("click", showNav);
 });

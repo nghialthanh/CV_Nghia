@@ -82,7 +82,7 @@ hr {
 
 /* layout */
 .wrapper {
-    width: 80%;
+    width: 85%;
     overflow-x: hidden;
 }
 
@@ -116,6 +116,15 @@ hr {
     }
     100% {
         transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeUp2 {
+    0% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
     }
 }
 
