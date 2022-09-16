@@ -170,6 +170,17 @@
 .box_info_content ul li {
     margin-bottom: 0.35rem;
 }
+
+.horizontal_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.horizontal_box li {
+    width: 33%;
+}
+
 .box_info_content_item {
     margin-bottom: 1rem;
     margin-top: 0;

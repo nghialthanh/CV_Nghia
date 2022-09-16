@@ -59,7 +59,7 @@ window.addEventListener("load", function () {
         var text = document.createTextNode("DINH THANH NGHIA");
         tag.appendChild(text);
         var tag1 = document.createElement("span");
-        var text1 = document.createTextNode("Front-end Developer");
+        var text1 = document.createTextNode("Software Engineer");
         tag1.appendChild(text1);
         div.appendChild(tag);
         div.appendChild(tag1);
