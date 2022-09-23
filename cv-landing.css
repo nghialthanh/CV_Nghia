@@ -34,7 +34,7 @@
     background: linear-gradient(
         0deg,
         rgba(44, 44, 44, 0.6),
-        rgba(46, 72, 49, 0.9)
+        rgba(72, 62, 46, 0.9)
     );
 }
 
@@ -85,7 +85,7 @@
     width: 50px;
     height: 45px;
     border-radius: 50px;
-    background: rgba(55, 140, 63, 0.8);
+    background: var(--primary-color-light);
     position: absolute;
     bottom: -20px;
     left: calc(50% - 45px / 2);

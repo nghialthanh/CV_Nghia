@@ -1,8 +1,15 @@
 /* css variables*/
 :root {
-    --primary-color: #253847;
+    /* green-blue */
+    /* --primary-color: #253847;
     --primary-color-light: rgba(30,165,125,255);
-    --primary-color-light-2: #c0e5d5;
+    --primary-color-light-2: #c0e5d5; */
+
+    /* orange yellow */
+    --primary-color: #e73600;
+    --primary-color-light: #fe9321;
+    --primary-color-light-2: #ffeeb8;
+
     --accent-color: #fe6a6b;
     --accent-color-light: #ffe4e4;
     --accent-color-dark: #b94b4c;
@@ -20,7 +27,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto Slab", serif;
-    background-color: #dcf3e8;
+    background-color: #fff7dc;
 }
 
 html,
