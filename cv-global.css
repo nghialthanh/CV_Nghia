@@ -1,8 +1,8 @@
 /* css variables*/
 :root {
-    --primary-color: #378c3f;
-    --primary-color-light: #40a249;
-    --primary-color-light-2: #cae0cc;
+    --primary-color: #253847;
+    --primary-color-light: rgba(30,165,125,255);
+    --primary-color-light-2: #c0e5d5;
     --accent-color: #fe6a6b;
     --accent-color-light: #ffe4e4;
     --accent-color-dark: #b94b4c;
@@ -20,7 +20,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto Slab", serif;
-    background-color: #e4f0e5;
+    background-color: #dcf3e8;
 }
 
 html,

@@ -18,6 +18,12 @@
     border-radius: 5px;
     margin: 0.75rem 0;
     background-color: var(--primary-color-light);
+    /* width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+  
+    border-bottom: 1000px solid rgb(80, 41, 5); */
 }
 
 .column {
@@ -42,17 +48,23 @@
     align-items: center;
     position: relative;
     z-index: 98;
+    padding: 30px;
+    background-image: url("./img/back.jpg");
+    border-radius: 10px;
 }
 
 .column_left_avatar .avatar {
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
     position: relative;
     border-radius: 50%;
-    border: 2px solid var(--primary-color);
+    border: 5px solid #dcf3e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.column_left_avatar .avatar::after {
+/* .column_left_avatar .avatar::after {
     content: "";
     border: 10px solid rgba(55, 140, 63, 0.6);
     border-radius: 50%;
@@ -65,7 +77,7 @@
     animation-iteration-count: infinite;
     opacity: 0;
     z-index: 2;
-}
+} */
 
 .column_left_avatar .avatar img {
     position: relative;
@@ -92,7 +104,8 @@
 
 /* box title pane */
 .title_pane {
-    background-color: var(--primary-color-light);
+    /* background-color: var(--primary-color-light); */
+    background-image: url("./img/back.jpg");
     border-radius: 15px 5px 1px 0px;
     padding: 7px;
     padding-right: 0;
@@ -101,6 +114,7 @@
 }
 
 .column_right .title_pane {
+    background-image: url("./img/back2.jpg");
     border-radius: 5px 15px 0px 1px;
     padding-left: 0;
     padding-right: 7px;
@@ -155,7 +169,7 @@
     height: 6px;
     background-color: transparent;
     border-radius: 100px / 50px;
-    border: 3px dashed var(--primary-color);
+    border: 3px dashed var(--primary-color-light);
 }
 
 .column_right .title_pane_circle_white .circle_white::before {
@@ -165,6 +179,7 @@
 /* content of box */
 .box_info_content {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
 }
 
 .box_info_content ul li {
@@ -193,7 +208,10 @@
     width: 25px;
     text-align: center;
     margin-right: 0.5rem;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    background: -webkit-linear-gradient(var(--primary-color), rgba(30,165,125,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box_info_content_item .progress_skill_title {
@@ -215,3 +233,20 @@
     height: 100%;
     background-color: var(--primary-color);
 }
+
+/* company list */
+
+.company_list{
+
+}
+
+/* .lalalen{
+    background-image: linear-gradient(to bottom right, #f3792d, var(--primary-color-light-2));
+    border-radius: 0 0 10px 10px;
+}
+
+.cmc_global{
+    background-image: linear-gradient(to bottom right, #6EC1E4, var(--primary-color-light-2));
+    background-image: url("./img/1633355885341-Untitled\ design\ \(17\).png");
+    border-radius: 10px;
+} */
