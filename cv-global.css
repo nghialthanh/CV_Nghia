@@ -6,9 +6,13 @@
     --primary-color-light-2: #c0e5d5; */
 
     /* orange yellow */
-    --primary-color: #e73600;
+    /* --primary-color: #e73600;
     --primary-color-light: #fe9321;
-    --primary-color-light-2: #ffeeb8;
+    --primary-color-light-2: #ffeeb8; */
+
+    --primary-color: #2050bc;
+    --primary-color-light: #0f3387;
+    --primary-color-light-2: #cce9f5;
 
     --accent-color: #fe6a6b;
     --accent-color-light: #ffe4e4;
@@ -27,7 +31,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto Slab", serif;
-    background-color: #fff7dc;
+    background-color: #e8f8fd;
 }
 
 html,
