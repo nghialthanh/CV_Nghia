@@ -14,8 +14,7 @@ if (document.getElementsByClassName("demo").length > 0) {
     var i = 0;
     var txt = `Hi! My name is Nghia                         
 
-            I'm Software Engineer with 2+ years experience as a front end developer using React.js,
-            and 5+ months experience as a back end developer
+            I'm Software Engineer with 3+ years experience as a fullstack developer using React.js and Golang
 
             ### My personality is
 
