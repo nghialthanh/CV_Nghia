@@ -54,11 +54,11 @@
 }
 
 .column_left_avatar .avatar {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     position: relative;
     border-radius: 50%;
-    border: 5px solid #dcf3e8;
+    border: 8px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,16 +85,17 @@
     margin: 0;
     border-radius: 50%;
     transition: all 0.3s ease-out;
-    width: 185px;
-    height: 185px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     z-index: 3;
 }
 
 .box_info {
-    margin-top: 25px;
+    margin-top: 18px;
     background-color: var(--primary-color-light-2);
     border-radius: 15px 5px 4px 4px;
+    border: 1px solid black;
     /* box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
@@ -156,11 +157,11 @@
     border-radius: 50%;
     width: 9px;
     height: 9px;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     position: relative;
 }
 
-.title_pane_circle_white .circle_white::before {
+/* .title_pane_circle_white .circle_white::before {
     content: "";
     position: absolute;
     right: -27px;
@@ -174,12 +175,11 @@
 
 .column_right .title_pane_circle_white .circle_white::before {
     left: -27px;
-}
+} */
 
 /* content of box */
 .box_info_content {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    
+    padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
 .box_info_content ul li {
@@ -209,7 +209,10 @@
     text-align: center;
     margin-right: 0.5rem;
     /* color: var(--primary-color); */
-    background: -webkit-linear-gradient(var(--primary-color), var(--primary-color-light));
+    background: -webkit-linear-gradient(
+        var(--primary-color),
+        var(--primary-color-light)
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -234,7 +237,13 @@
     background-color: var(--primary-color);
 }
 
-
+.label_company {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
 .list_tech ul {
     display: flex;
     flex-wrap: wrap;
