@@ -1,14 +1,33 @@
 /* css variables*/
 :root {
+
+    /*default*/
+    /* --primary-color-font: black;
+    --bg-color: black; */
+     --primary-color-font: #4a4a4a; 
+    --bg-color: #f8f8fa;
+
+
     /* green-blue */
-    /* --primary-color: #253847;
-    --primary-color-light: rgba(30,165,125,255);
-    --primary-color-light-2: #c0e5d5; */
+    --primary-color: #253847;
+    --primary-color-light: rgba(30,165,125);
+    --primary-color-light-2: #c0e5d5;
+   
+    
 
     /* orange yellow */
-    --primary-color: #e73600;
+    /* --primary-color: #e73600;
     --primary-color-light: #fe9321;
-    --primary-color-light-2: #ffeeb8;
+    --primary-color-light-2: #ffeeb8; */
+
+    /* --primary-color: #2050bc;
+    --primary-color-light: #0f3387;
+    --primary-color-light-2: #cce9f5; */
+
+    /* blue blur */
+    /* --primary-color: #6a8ddf;
+    --primary-color-light: #c9d1e2;
+    --primary-color-light-2: #cde4ee; */
 
     --accent-color: #fe6a6b;
     --accent-color-light: #ffe4e4;
@@ -17,7 +36,7 @@
     --light-gray-color: #c6cbd1;
     --medium-gray-color: #959da5;
     --dark-gray-color: #444d56;
-    --bg-color: #f8f8fa;
+    
     --code-bg-color: #f0e8e8;
 }
 
@@ -27,7 +46,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto Slab", serif;
-    background-color: #fff7dc;
+    background-color: #e8f8fd;
 }
 
 html,
@@ -40,12 +59,14 @@ body {
 
 ul {
     margin: 0;
+    padding-left: 30px;
 }
 
 p {
     font-weight: 300;
     font-size: 1em;
-    color: #4a4a4a;
+    /* color: #4a4a4a; */
+    color: var(--primary-color-font);
 }
 
 a {
@@ -89,10 +110,9 @@ hr {
 
 /* layout */
 .wrapper {
-    width: 85%;
+    width: 95%;
     overflow-x: hidden;
 }
-
 @media screen and (min-width: 1408px) {
     .wrapper {
         max-width: 1344px;
