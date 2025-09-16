@@ -9,10 +9,11 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         />
 
-        <link
+        <!-- <link
             href="https://fonts.googleapis.com/css?family=Roboto:100,400|Roboto+Slab:300,400|Quicksand:300|JetBrains+Mono:wght@100;300"
             rel="stylesheet"
-        />
+        /> -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./cv.css" />
         <link rel="stylesheet" href="../../cv-wrapper.css" />
         <link rel="stylesheet" href="../../cv-global.css" />
@@ -88,7 +89,7 @@
                         </div>
                         <div class="box_info_content">
                             <ul style="padding-left: 0;list-style: none;">
-                                <li><strong>English</strong>: Upper Intermediate.</li>
+                                <li><strong>English</strong>: Upper Intermediate. 1+ year experience working with foreign customers</li>
                                 <li><strong>Teamwork</strong>: Good. Well-trained and sharpened through many clubs and project teams.</li>
                                 <li><strong>Result-driven</strong>: Strong. With my experience in two product company, I consistently deliver high-quality outcomes and improve efficiency.</li>
                                 <li><strong>Problem research and solve</strong>: Excellent Critical thinking combine with rationally logical mindset. Willing to learn and accept new stuffs.</li>
@@ -132,7 +133,7 @@
                                 <li><strong>Programming Languages:</strong> Golang, JavaScript.</li>
                                 <li><strong>Frameworks/Platforms:</strong></li>
                                 <ul>
-                                    <li>Backend: Gin, Echo, Gorm, Redis, Kafka</li>
+                                    <li>Backend: Gin, Echo, Gorm, Redis, Kafka, Elasticsearch</li>
                                     <li>Frontend: React.js, Next.js, Nest.Js, Bootstrap, MaterialUI</li>
                                 </ul>
                                 <li><strong>Database Management Systems:</strong> PostgreSQL, MongoDB, MySQL, DynamoDB</li>
@@ -151,11 +152,52 @@
                             </div>
                         </div>
                         <div class="box_info_content">
+                            
                             <ul style="list-style: none;padding-left: 0px; margin-top: 8px;">
-                                <li><strong class="label_company">BUYMED - Backend Developer: <em>09/2022 - Present</em></strong>
+                                <li>
+                                    <strong class="label_company"> 
+                                        <span><a
+                                            href="https://www.textedge.net/home/"
+                                            target="_blank"
+                                            style="color: black;"
+                                        >WellyTalk</a> - Backend Developer: </span>
+                                        <em>05/2024 - Present</em>
+                                    </strong>
+                                    <ul>
+                                        <li style="margin-top: .3rem;"><strong>Description:</strong> WellyTalk delivers cutting-edge SaaS (Software as a Service) solutions, empowering businesses to streamline customer service operations. 
+                                         Enhances efficiency and collaboration, ensures scalability, automatic updates, and seamless access for businesses of all sizes.</li>
+                                        <li style="margin-top: .3rem;"><strong>Tech Stack:</strong> Golang, Docker, Grpc, Kafka, MongoDB, MySQL, Kubernetes, Redis, Grafana, AWS, K8s, Jenkins, Elasticsearch</li>
+                                        <li style="margin-top: .3rem;"><strong>Responsibilities:</strong></li>
+                                        <ul>
+                                            <li>Integrate Redis Pub/Sub in conjunction with WebSocket to enhance message distribution efficiency across multiple pods on Kubernetes, tailored for small and medium-sized businesses. 
+                                            For high-traffic systems, transition from conventional WebSocket streams to Centrifugal to ensure robust performance and scalability.</li>
+                                            <li>Implement Elasticsearch to optimize query performance on tables containing over 10 million records, including historical messages and conversations, ensuring faster and more efficient data retrieval.</li>
+                                            <li>Optimize real-time data analysis and reporting for businesses using Kafka, enabling efficient management of employee activities, productivity tracking, aggregate agent messages for advanced analytics via AI Team.</li>
+                                            <li>Utilize Amazon ElastiCache to cache 80% of frequently accessed data used by agents in their daily tasks. Maintaining continuous availability of Redis ensures seamless and efficient daily business operations.</li>
+                                            <li>
+                                                Leveraged Grafana to monitor key system metrics, including average API request speed, CPU/RAM/Disk usage, and the number of active nodes and pods for 
+                                                each service. Integrated a Telegram bot to instantly notify of anomalies, enabling rapid detection and resolution of issues.
+                                            </li>
+                                            <li>Review code and mentor fresher and junior team members to ensure code quality</li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box_info_content">
+                            <ul style="list-style: none;padding-left: 0px; margin-top: 8px;">
+                                <li>
+                                    <strong class="label_company"> 
+                                        <span><a
+                                            href="https://thuocsi.vn/"
+                                            target="_blank"
+                                            style="color: black;"
+                                        >BUYMED</a> - Fullstack Developer: </span>
+                                        <em>09/2022 - 04/2024</em>
+                                    </strong>
                                     <ul>
                                         <li style="margin-top: .3rem;"><strong>Description:</strong> BUYMED operates the largest B2B pharmaceutical distribution platform in Vietnam and Southeast Asia through its e-commerce website <strong>Thuocsi.vn</strong></li>
-                                        <li style="margin-top: .3rem;"><strong>Tech Stack:</strong> Golang, Echo, Kafka, MongoDB, Kubernetes, Redis, Grafana, Google Cloud...</li>
+                                        <li style="margin-top: .3rem;"><strong>Tech Stack:</strong> Golang, Echo, Kafka, MongoDB, Kubernetes, Redis, Google Cloud...</li>
                                         <li style="margin-top: .3rem;"><strong>Responsibilities:</strong></li>
                                         <ul>
                                             <li>
@@ -173,14 +215,9 @@
                                                 system performance. Collaborated with the DevOps team to apply these adjustments in the production environment, ensuring high 
                                                 availability, fault tolerance, and scalability for services and newly released features.
                                             </li>
-                                            <li>
-                                                Leveraged Grafana to monitor key system metrics, including average API request speed, CPU/RAM/Disk usage, and the number of active nodes and pods for 
-                                                each service. Integrated a Telegram bot to instantly notify of anomalies, enabling rapid detection and resolution of issues.
-                                            </li>
                                             <li>Utilized Redis to cache product and user information, reducing database load and significantly improving data retrieval speed.</li>
                                             <li>Implement back-end service, design database schema and enhance database performance to align with the company's growth: index-z, sharding, algolia,...</li>
                                             <li>Design and develop a payment system that automatically processes refunds for canceled orders or overpayments, help optimizing the accounting process</li>
-                                           <li>Developed real-time messaging functionality using WebSockets, enabling customers to exchange text messages and send image/file attachments with the customer support team</li>
                                             <li>Review code and mentor fresher and junior team members to ensure code quality</li>
                                         </ul>
                                     </ul>
@@ -189,30 +226,38 @@
                         </div>
                         <div class="box_info_content">
                             <ul style="list-style: none;padding-left: 0px;">
-                                <li><strong class="label_company">CMC GLOBAL - Fullstack Developer: <em>08/2021 - 09/2022</em></strong>
+                                <li>
+                                    <strong class="label_company">
+                                        <span><a
+                                            href="https://www.cmc.com.vn/"
+                                            target="_blank"
+                                            style="color: black;"
+                                        >CMC GLOBAL</a> - Fullstack Developer:</span> 
+                                        <em>08/2021 - 09/2022</em>
+                                    </strong>
                                     
                                     <ul>
                                         <li style="margin-top: .3rem;"><strong>Description:</strong> The largest outsourcing company in Vietnam, consulting on digital transformation and technology solutions for customers
                                         <li style="margin-top: .3rem;"><strong>Project:</strong> E-commerce company (Colombia) - Backend engineer</li>
                                         <ul>
                                             <li><strong>Tech Stack:</strong> Golang, Gin, Gorm, Redis, PostgreSQL, rabbitMQ, AWS, DynamoDB</li>
-                                            <li><strong>Responsibilities:</strong></li>
+                                            <!-- <li><strong>Responsibilities:</strong></li>
                                             <ul style="list-style: outside;">
                                                 <li>Discuss and design Server Driven UI for mobile apps</li>
                                                 <li>System design according to the Domain-Driven Design model</li>
                                                 <li>Research and develop driver response features with customers through Socket</li>
                                                 <li>Set up clustering and leader-follower replication topology for scalability for shopping cart by DynamoDB</li>
-                                            </ul>
+                                            </ul> -->
                                         </ul>
                                         <li style="margin-top: .3rem;"><strong>Project:</strong> Car booking application (Thailand) - Fullstack engineer</li>
                                         <ul>
                                             <li><strong>Tech Stack:</strong> Nest.js, Socket.IO, MySQL, rabbitMQ</li>
-                                            <li><strong>Responsibilities:</strong></li>
+                                            <!-- <li><strong>Responsibilities:</strong></li>
                                             <ul style="list-style: outside;">
                                                 <li>Proceed to custom decorators of Nest.js to connect to the bank's api</li>
                                                 <li>Optimized RabbitMQ queues for process transaction requests before sending them to the bank</li>
                                                 <li>Research and develop driver response features with customers through Socket</li>
-                                            </ul>
+                                            </ul> -->
                                         </ul>
                                     </ul>
                                 </li>
@@ -224,7 +269,7 @@
                                     <ul>
                                         <li style="margin-top: .3rem;"><strong>Description:</strong> Is a real estate startup. Perform transactions, search, statistics, ... about legal, residence, planning area through the company's website</li>
                                         <li style="margin-top: .3rem;"><strong>Tech Stack:</strong> Golang, Gin, Postgres, React, Bootstrap, Axios,...</li>
-                                        <li style="margin-top: .3rem;"><strong>Responsible:</strong></li>
+                                        <!-- <li style="margin-top: .3rem;"><strong>Responsible:</strong></li>
                                             <ul>
                                                 <li>Implement Google OAuth for authentication, allowing users to log in using their Google email accounts</li>
                                                 <li>Setup Redis to cache real estate data in maps</li>
@@ -232,7 +277,7 @@
                                                 <li>Customize elements of UI Component Libraries with SASS</li>
                                                 <li>Building Facebook Open Graph tool - Set up Server-side Rendering with Node.js help Facebook read meta tags</li>
                                             </ul>
-                                        </li> 
+                                        </li>  -->
                                     </ul>
                                 </li>
                             </ul>
