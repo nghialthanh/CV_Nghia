@@ -107,8 +107,12 @@ hr {
 
 /* layout */
 .wrapper {
-    width: 95%;
+    width: 96%;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (min-width: 1408px) {
     .wrapper {
@@ -163,5 +167,11 @@ hr {
     100% {
         transform: scale(1, 1);
         opacity: 0;
+    }
+}
+
+.scroll-container {
+    ::-webkit-scrollbar {
+        display: none;
     }
 }
